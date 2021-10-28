@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Generator</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -19,18 +19,16 @@
                 oninput="this.nextElementSibling.value = this.value" id="slider">
             <output>8</output>
         </div>
-        <label class="container" style="font-family: 'Times New Roman', Times, serif;color: rgb(3, 3, 3);">Include special characters
+        <label class="container">Include special characters
             <input type="checkbox" checked="checked" id="checkbox">
             <span class="checkmark"></span>
         </label>
-    </div>
-
-    <div class="wrapper">
-        <h5 id="pwd_txt"></h5>
+        <h4 id="pwd_txt"></h4>
         <button id="clipboard" class="clipboard">
             Copy to clipboard
         </button>
     </div>
+
     <script src="script.js"></script>
 </body>
 
